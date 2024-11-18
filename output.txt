@@ -1,0 +1,136 @@
+Model weights for Brazil
+Criteria 1: Global, Local: [0.70085321 0.29914679]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.4662833  0.17971949 0.1449405  0.02920692 0.1056696  0.07418019]
+Model weights for Australia
+Criteria 1: Global, Local: [0.66282363 0.33717637]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.4773185  0.17600359 0.14194369 0.02860303 0.10348476 0.07264643]
+Model weights for Ireland
+Criteria 1: Global, Local: [0.66694831 0.33305169]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.46896375 0.1788169  0.14421257 0.02906023 0.10513891 0.07380764]
+Model weights for New Zealand
+Criteria 1: Global, Local: [0.77570227 0.22429773]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.45011842 0.18516272 0.14933036 0.03009152 0.10887006 0.07642692]
+Model weights for Slovenia
+Criteria 1: Global, Local: [0.45256574 0.54743426]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.20221573 0.26863949 0.21665286 0.04365766 0.15795186 0.1108824 ]
+Model weights for Japan
+Criteria 1: Global, Local: [0.6322696 0.3677304]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.48896231 0.17208274 0.1387816  0.02796584 0.10117943 0.07102808]
+Model weights for United Kingdom
+Criteria 1: Global, Local: [0.68480136 0.31519864]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47549211 0.17661859 0.14243968 0.02870298 0.10384637 0.07290028]
+Model weights for Singapore
+Criteria 1: Global, Local: [0.67643184 0.32356816]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.45736382 0.18272296 0.14736274 0.02969502 0.10743555 0.07541989]
+Model weights for Austria
+Criteria 1: Global, Local: [0.75933237 0.24066763]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.31215028 0.23162101 0.18679813 0.03764164 0.13618612 0.09560283]
+Model weights for Hong Kong
+Criteria 1: Global, Local: [0.54049967 0.45950033]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47779075 0.17584456 0.14181544 0.02857719 0.10339126 0.0725808 ]
+Model weights for Portugal
+Criteria 1: Global, Local: [0.63816687 0.36183313]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47270003 0.17755877 0.14319792 0.02885577 0.10439916 0.07328834]
+Model weights for Switzerland
+Criteria 1: Global, Local: [0.70309913 0.29690087]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.45741962 0.18270418 0.14734759 0.02969197 0.10742451 0.07541214]
+Model weights for France
+Criteria 1: Global, Local: [0.76383403 0.23616597]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.46144342 0.18134923 0.14625485 0.02947177 0.10662784 0.07485288]
+Model weights for Canada
+Criteria 1: Global, Local: [0.69551069 0.30448931]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47002562 0.17845933 0.1439242  0.02900212 0.10492867 0.07366006]
+Model weights for United States
+Criteria 1: Global, Local: [0.6270453 0.3729547]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.49164318 0.17118001 0.13805356 0.02781913 0.10064864 0.07065547]
+Model weights for Denmark
+Criteria 1: Global, Local: [0.67446562 0.32553438]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.23055913 0.25909536 0.20895569 0.0421066  0.1523402  0.10694301]
+Model weights for Finland
+Criteria 1: Global, Local: [0.63812163 0.36187837]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.34519688 0.22049317 0.17782372 0.03583321 0.12964328 0.09100975]
+Model weights for Latvia
+Criteria 1: Global, Local: [0.46026149 0.53973851]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.37439999 0.21065954 0.16989308 0.03423511 0.12386141 0.08695087]
+Model weights for South Korea
+Criteria 1: Global, Local: [0.63961438 0.36038562]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.4817911  0.17449752 0.14072907 0.02835827 0.10259924 0.0720248 ]
+Model weights for Netherlands
+Criteria 1: Global, Local: [0.68378429 0.31621571]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.44686585 0.18625797 0.15021366 0.03026951 0.10951403 0.07687898]
+Model weights for Ecuador
+Criteria 1: Global, Local: [0.47049573 0.52950427]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.41127587 0.19824225 0.15987877 0.03221712 0.11656042 0.08182556]
+Model weights for Germany
+Criteria 1: Global, Local: [0.72940813 0.27059187]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.45968495 0.18194137 0.1467324  0.029568   0.106976   0.07509728]
+Model weights for South Africa
+Criteria 1: Global, Local: [0.66732041 0.33267959]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.4561179  0.18314251 0.1477011  0.02976321 0.10768223 0.07559306]
+Model weights for Malaysia
+Criteria 1: Global, Local: [0.69586715 0.30413285]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.46342489 0.18068201 0.14571675 0.02936334 0.10623553 0.07457748]
+Model weights for Thailand
+Criteria 1: Global, Local: [0.59019648 0.40980352]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.50500618 0.16668026 0.13442459 0.02708786 0.09800293 0.06879818]
+Model weights for Peru
+Criteria 1: Global, Local: [0.63333621 0.36666379]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.30122848 0.23529873 0.18976414 0.03823932 0.13834851 0.09712082]
+Model weights for Czechia
+Criteria 1: Global, Local: [0.724424 0.275576]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.40192491 0.20139102 0.16241819 0.03272884 0.1184118  0.08312523]
+Model weights for Philippines
+Criteria 1: Global, Local: [0.6382523 0.3617477]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.46739103 0.17934648 0.14463967 0.0291463  0.10545029 0.07402623]
+Model weights for Spain
+Criteria 1: Global, Local: [0.68272796 0.31727204]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47572928 0.17653873 0.14237527 0.02869    0.10379941 0.07286731]
+Model weights for Mexico
+Criteria 1: Global, Local: [0.62284785 0.37715215]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.49163497 0.17118277 0.13805579 0.02781958 0.10065027 0.07065662]
+Model weights for Italy
+Criteria 1: Global, Local: [0.66063362 0.33936638]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.48346987 0.17393222 0.14027317 0.02826641 0.10226686 0.07179147]
+Model weights for Argentina
+Criteria 1: Global, Local: [0.62708977 0.37291023]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.47744966 0.17595942 0.14190807 0.02859585 0.10345879 0.0726282 ]
+Model weights for Indonesia
+Criteria 1: Global, Local: [0.68587951 0.31412049]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.45715516 0.18279323 0.14741941 0.02970644 0.10747687 0.07544889]
+Model weights for Russia
+Criteria 1: Global, Local: [0.68722193 0.31277807]
+Criteria 5: Relevance, Innovation: [0.41851005 0.58148995]
+Criteria weights: [0.43321998 0.19085297 0.15391944 0.03101626 0.11221575 0.0787756 ]
