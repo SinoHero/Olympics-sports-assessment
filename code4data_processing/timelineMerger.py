@@ -1,34 +1,35 @@
 import csv
 import os
 import json
-import math
+
+with open('Trends/disciplines.json') as file:
+    disciplines = json.load(file)
+    list_of_disciplines = disciplines.keys()
 
 allTimeline = {}
 allRows = []
 addition = 1
-baseline = "BMX racing"
+baseline = "Marathon swimming: (Worldwide)"
 baselineInFile = 1
-baselineSum = 163
-allTimeline[baseline] = {}
+baselineSum = 118.45
+allTimeline[baseline] = []
 
 for file in os.listdir('Trends/Data Round 4/'):
-    if file.endswith('.csv') and "geoMap" in file:
+    if file.endswith('.csv') and "multiTimeline" in file:
         with open('Trends/Data Round 4/' + file, 'r') as f:
             reader = csv.reader(f)
             rows = list(reader)
             allRows.append(rows)
 
 
-with open('Trends/Data Round 4/geoMap (25).csv', 'r') as f:
+with open('Trends/Data Round 4/multiTimeline (25).csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         if len(row)>0:
-            if row[0]!="Category: All categories" and row[0] != "Country":
-                if row[baselineInFile] == '<1%':
-                    row[baselineInFile] = "0.45%"
-                if row[baselineInFile] == '':
-                    row[baselineInFile] = "0%"
-                allTimeline[baseline][row[0]] = 0#(float(row[baselineInFile][:-1])/baselineSum * 10000)# /2)
+            if row[0]!="Category: All categories" and row[0] != "Week":
+                if row[baselineInFile] == '<1':
+                    row[baselineInFile] = "0.45"
+                allTimeline[baseline].append(float(row[baselineInFile])/baselineSum * 10000)# /2)
 
 """
 counter = 0
@@ -48,14 +49,13 @@ finished = [baseline]
 while len(finished) < 52:
     print(len(finished))
     for rows in allRows:
+        counter = 0
         standard = None
         for row in rows:
             if len(row) == 0 or row[0] == 'Category: All categories':
                 continue
-            if row[0] == "Country":
-                names = []
-                for item in row:
-                    names.append(item.split(':')[0])
+            if row[0] == "Week":
+                names = row
 
                 
                 for name in names[1:]:
@@ -70,16 +70,16 @@ while len(finished) < 52:
                 for item in range(1, len(row)):
                     if item != standard and names[item] not in finished:
                         if row[item] == '':
-                            row[item] = '0%'
-                        if row[standard] == '':
-                            row[standard] = '0%'
-                        if row[item] == '<1%':
-                            row[item] = "0.45%"
-                        if row[standard] == '<1%':
-                            row[standard] = "0.45%"
-                        if names[item] not in allTimeline:
-                            allTimeline[names[item]] = {}
-                        allTimeline[names[item]][row[0]] = math.log(float(row[item][:-1])+addition)-math.log(float(row[standard][:-1])+addition)+allTimeline[names[standard]][row[0]]
+                            continue
+                        if row[item] == '<1':
+                            row[item] = "0.45"
+                        if row[standard] == '<1':
+                            row[standard] = "0.45"
+                        if names[item] in allTimeline:
+                            allTimeline[names[item]].append((float(row[item])+addition)/(float(row[standard])+addition)*allTimeline[names[standard]][counter])
+                        else:
+                            allTimeline[names[item]] = [(float(row[item])+addition)/(float(row[standard])+addition)*allTimeline[names[standard]][counter]]
+                counter += 1
 
         if standard != None:
             for name in names[1:]:
@@ -91,5 +91,5 @@ while len(finished) < 52:
 
 
 
-with open('Trends/allGeomap.json', 'w') as f:
+with open('Trends/allTimelines.json', 'w') as f:
     json.dump(allTimeline, f)
